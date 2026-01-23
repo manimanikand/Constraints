@@ -3,8 +3,9 @@ class CON;
     rand int A;
     rand int B;
 
-    constraints C1{A<5;A<50;}
-    constraints C2{B>10;B>100;}
+    constraint C1{A>5;A<50;}
+    constraint C2{B>10;B<100;}
+
 endclass
 
 module tb;
@@ -15,7 +16,7 @@ module tb;
         c1=new();
         repeat(10) begin
             c1.randomize();
-            $display("value of A=%d and B=%d",A,B);
+            $display("value of A=%d and B=%d",c1.A,c1.B);
         end
     end
 
