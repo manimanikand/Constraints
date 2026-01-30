@@ -1120,3 +1120,192 @@ do run.do
 # data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36 || data_3=0 14 15 26 47 
 # data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35 || data_3=8 26 27 42 47 
 # data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42 || data_3=3 6 23 32 35 
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:45:13 on Jan 30,2026
+# vlog -reportprogress 300 conditional_cons.sv "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "conditional_cons.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 17:45:13 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_2024.1/win64/vlog failed.
+#     while executing
+# "vlog conditional_cons.sv +acc"
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:45:51 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# ** Error: conditional_con.sv(8): (vlog-2730) Undefined variable: 'addr'.
+# End time: 17:45:51 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_2024.1/win64/vlog failed.
+#     while executing
+# "vlog conditional_con.sv +acc"
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:46:09 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# -- Compiling package conditional_con_sv_unit
+# -- Compiling module tb
+# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	tb
+# End time: 17:46:09 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:46:10 on Jan 30,2026, Elapsed time: 0:13:02
+# Errors: 2, Warnings: 0
+# vsim tb 
+# Start time: 17:46:10 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.conditional_con_sv_unit(fast)
+# Loading work.tb(fast)
+# opcode=1,addr=202
+# opcode=2,addr=223
+# opcode=3,addr=86
+# opcode=2,addr=199
+# opcode=3,addr=160
+# opcode=1,addr=24
+# opcode=2,addr=177
+# opcode=2,addr=252
+# opcode=1,addr=8
+# opcode=1,addr=77
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:48:12 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# ** Error: (vlog-13069) conditional_con.sv(21): near "c1": syntax error, unexpected IDENTIFIER, expecting '{'.
+# End time: 17:48:12 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_2024.1/win64/vlog failed.
+#     while executing
+# "vlog conditional_con.sv +acc"
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:48:54 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# ** Error: (vlog-13069) conditional_con.sv(21): near "c1": syntax error, unexpected IDENTIFIER, expecting '{'.
+# End time: 17:48:54 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.1/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_2024.1/win64/vlog failed.
+#     while executing
+# "vlog conditional_con.sv +acc"
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:50:30 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# -- Compiling package conditional_con_sv_unit
+# -- Compiling module tb
+# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	tb
+# End time: 17:50:30 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:50:31 on Jan 30,2026, Elapsed time: 0:04:21
+# Errors: 2, Warnings: 2
+# vsim tb 
+# Start time: 17:50:31 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.conditional_con_sv_unit(fast)
+# Loading work.tb(fast)
+# opcode=1,addr=202
+# opcode=1,addr=223
+# opcode=1,addr=86
+# opcode=1,addr=199
+# opcode=1,addr=160
+# opcode=1,addr=24
+# opcode=0,addr=17
+# opcode=1,addr=252
+# opcode=1,addr=8
+# opcode=1,addr=77
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:51:02 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# -- Compiling package conditional_con_sv_unit
+# -- Compiling module tb
+# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	tb
+# End time: 17:51:02 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:51:03 on Jan 30,2026, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 17:51:03 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.conditional_con_sv_unit(fast)
+# Loading work.tb(fast)
+# opcode=1,addr=3
+# opcode=0,addr=9
+# opcode=1,addr=f
+# opcode=0,addr=14
+# opcode=0,addr=2
+# opcode=1,addr=f
+# opcode=0,addr=11
+# opcode=0,addr=13
+# opcode=1,addr=4
+# opcode=0,addr=19
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 17:51:49 on Jan 30,2026
+# vlog -reportprogress 300 conditional_con.sv "+acc" 
+# -- Compiling package conditional_con_sv_unit
+# -- Compiling module tb
+# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	tb
+# End time: 17:51:49 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:51:50 on Jan 30,2026, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 17:51:50 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.conditional_con_sv_unit(fast)
+# Loading work.tb(fast)
+# opcode=1,addr=3
+# opcode=1,addr=9
+# opcode=1,addr=f
+# opcode=0,addr=14
+# opcode=1,addr=2
+# opcode=1,addr=f
+# opcode=0,addr=11
+# opcode=0,addr=13
+# opcode=1,addr=4
+# opcode=0,addr=19

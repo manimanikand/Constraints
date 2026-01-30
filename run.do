@@ -1,3 +1,3 @@
-vlog array_con.sv +acc
+vlog conditional_con.sv +acc
 vsim tb
 run -all
