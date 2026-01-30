@@ -1,9 +1,31 @@
 m255
 K4
 z2
-Z0 !s12c _opt
+Z0 !s12c _opt1
 Z1 !s99 nomlopt
 R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
 R1
 !s11f vlog 2024.1 2024.02, Feb  1 2024
 13
@@ -12,70 +34,110 @@ R1
 !i10e 25
 !i10f 100
 cModel Technology
-Z2 dD:/GITHUB/Constrains
+Z3 dD:/GITHUB/Constrains
 T_opt
-!s110 1769160917
-Vo8Zc`gHAb`7J:?54=1RHd2
-04 2 4 work tb fast 0
-=1-c84bd652329f-697340d5-a2-293c
+!s110 1769163135
+Vgef=oPi^1V0hb_@7zVBNJ3
+Z4 04 2 4 work tb fast 0
+=1-c84bd652329f-6973497f-22a-4098
 R1
-!s12f OEM100
-!s12b OEM100
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work
-Z3 tCvgOpt 0
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 o-quiet -auto_acc_if_foreign -work work
+Z9 tCvgOpt 0
 n@_opt
-OL;O;2024.1;79
+Z10 OL;O;2024.1;79
+R3
+T_opt1
+!s110 1769766455
+VeFc>fjnY7YH=oc@GU;=oB2
+R4
+=1-c84bd652329f-697c7e37-156-3118
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
 Xconstrints_sv_unit
-Z4 2constrints.sv
-Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z6 !s110 1769160916
-VO;M?hDS;3XMnRE3LgFK_U0
+2constrints.sv
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1769163134
+VlK>JfmQ7HJoeWbZ0D:LBW2
 r1
 !s85 0
 !i10b 1
-!s100 YgHVK7kCkXZ31CeL]E]Q^0
-IO;M?hDS;3XMnRE3LgFK_U0
+!s100 5`dah0:]k0NUUTR:FMzPW2
+IlK>JfmQ7HJoeWbZ0D:LBW2
 !i103 1
 S1
-R2
-Z7 w1769160913
-Z8 8constrints.sv
-Z9 Fconstrints.sv
-!i122 2
-L0 1 0
-Z10 OL;L;2024.1;79
-31
-Z11 !s108 1769160916.000000
-Z12 !s107 constrints.sv|
-Z13 !s90 -reportprogress|300|constrints.sv|
-!i113 0
-Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
+w1769163131
+8constrints.sv
+Fconstrints.sv
+!i122 8
+Z12 L0 1 0
+Z13 OL;L;2024.1;79
+31
+!s108 1769163134.000000
+!s107 constrints.sv|
+!s90 -reportprogress|300|constrints.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+Xdist_con_sv_unit
+Z14 2dist_con.sv
+R11
+Z15 !s110 1769766453
+VTSKhNghC3ch96:mgS8?5o0
+r1
+!s85 0
+!i10b 1
+!s100 =oX<JZCZbCB;8kM8X6@PZ0
+ITSKhNghC3ch96:mgS8?5o0
+!i103 1
+S1
+R3
+Z16 w1769766450
+Z17 8dist_con.sv
+Z18 Fdist_con.sv
+!i122 16
+R12
+R13
+31
+Z19 !s108 1769766453.000000
+Z20 !s107 dist_con.sv|
+Z21 !s90 -reportprogress|300|dist_con.sv|+acc|
+!i113 0
+Z22 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
 vtb
-R4
-R5
-DXx4 work 18 constrints_sv_unit 0 22 O;M?hDS;3XMnRE3LgFK_U0
-R6
+R14
+R11
+DXx4 work 16 dist_con_sv_unit 0 22 TSKhNghC3ch96:mgS8?5o0
+R15
 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 !i10b 1
-!s100 ddOf:BLHjQilO?_hI48an2
-IfFX]zRPe4DWN[l^FI5^LA0
-!s105 constrints_sv_unit
+!s100 2bE@O`Alc8I4F[2=C9XcV3
+IOmnEA0^5=LX1EcHP[V0cE2
+!s105 dist_con_sv_unit
 S1
-R2
-R7
-R8
-R9
-!i122 2
-L0 11 13
-R10
-31
-R11
-R12
-R13
-!i113 0
-R14
 R3
+R16
+R17
+R18
+!i122 16
+L0 9 11
+R13
+31
+R19
+R20
+R21
+!i113 0
+R22
+R9
