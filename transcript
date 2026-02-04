@@ -12,1300 +12,209 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-ls
-# constrints.sv  dist_con.sv  run.do  transcript  work    
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:43:11 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv.sv 
-# ** Error: (vlog-7) Failed to open design unit file "dist_con.sv.sv" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 10:43:11 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog dist_con.sv.sv"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:43:37 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv.sv 
-# ** Error: (vlog-7) Failed to open design unit file "dist_con.sv.sv" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 10:43:37 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog dist_con.sv.sv"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:43:56 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
+# Start time: 16:52:06 on Feb 03,2026
+# vlog -reportprogress 300 solve_before.sv "+acc" 
+# -- Compiling package solve_before_sv_unit
 # -- Compiling module tb
-# ** Error: dist_con.sv(7): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: dist_con.sv(9): 'a1' is not a variable
-# ** Error: dist_con.sv(9): Illegal LHS of assignment.
-# ** Error: dist_con.sv(9): 'new' must be used to assign to a class or covergroup handle.
-# End time: 10:43:57 on Jan 30,2026, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog dist_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:45:07 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
-# -- Compiling module tb
-# ** Error: dist_con.sv(7): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: dist_con.sv(9): 'a1' is not a variable
-# ** Error: dist_con.sv(9): Illegal LHS of assignment.
-# ** Error: dist_con.sv(9): 'new' must be used to assign to a class or covergroup handle.
-# End time: 10:45:07 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog dist_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:45:48 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
-# -- Compiling module tb
-# ** Warning: dist_con.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: solve_before.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # 
 # Top level modules:
 # 	tb
-# End time: 10:45:48 on Jan 30,2026, Elapsed time: 0:00:00
+# End time: 16:52:06 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vsim tb 
-# Start time: 10:45:48 on Jan 30,2026
+# Start time: 16:52:06 on Feb 03,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: dist_con.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: solve_before.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
+# Loading work.solve_before_sv_unit(fast)
 # Loading work.tb(fast)
-# data 3
-# data 0
-# data 0
-# data 3
-# data 3
-# data 1
-# data 0
-# data 1
-# data 0
-# data 3
+# enable=1, data=          2
+# enable=0, data= -785558212
+# enable=1, data=         49
+# enable=1, data=         87
+# enable=1, data=         42
+# enable=0, data=-1073608722
+# enable=1, data=         89
+# enable=1, data=          6
+# enable=0, data= -842813239
+# enable=1, data=          7
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:46:31 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
+# Start time: 16:53:04 on Feb 03,2026
+# vlog -reportprogress 300 solve_before.sv "+acc" 
+# -- Compiling package solve_before_sv_unit
 # -- Compiling module tb
-# ** Warning: dist_con.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: solve_before.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # 
 # Top level modules:
 # 	tb
-# End time: 10:46:31 on Jan 30,2026, Elapsed time: 0:00:00
+# End time: 16:53:04 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# End time: 10:46:31 on Jan 30,2026, Elapsed time: 0:00:43
+# End time: 16:53:05 on Feb 03,2026, Elapsed time: 0:00:59
 # Errors: 0, Warnings: 2
 # vsim tb 
-# Start time: 10:46:31 on Jan 30,2026
+# Start time: 16:53:05 on Feb 03,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: dist_con.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: solve_before.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
+# Loading work.solve_before_sv_unit(fast)
 # Loading work.tb(fast)
-# data 0
-# data 0
-# data 0
-# data 0
-# data 3
-# data 0
-# data 0
-# data 0
-# data 3
-# data 2
+# enable=1, data=          2
+# enable=0, data= -785558212
+# enable=0, data=  209767915
+# enable=0, data=   30061657
+# enable=0, data= -151156035
+# enable=0, data=-1565313664
+# enable=1, data=         89
+# enable=1, data=          6
+# enable=0, data= -842813239
+# enable=0, data= -328873579
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 10:49:03 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
+# Start time: 18:02:25 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# -- Compiling package array_sv_unit
 # -- Compiling module tb
-# ** Warning: dist_con.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: array.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # 
 # Top level modules:
 # 	tb
-# End time: 10:49:03 on Jan 30,2026, Elapsed time: 0:00:00
+# End time: 18:02:25 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# End time: 10:49:04 on Jan 30,2026, Elapsed time: 0:02:33
+# End time: 18:02:26 on Feb 03,2026, Elapsed time: 1:09:21
 # Errors: 0, Warnings: 2
 # vsim tb 
-# Start time: 10:49:04 on Jan 30,2026
+# Start time: 18:02:26 on Feb 03,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: dist_con.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: array.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
+# Loading work.array_sv_unit(fast)
 # Loading work.tb(fast)
-# data=0
-# data=1
-# data=1
-# data=0
-# data=0
-# data=0
-# data=0
-# data=0
-# data=2
-# data=0
+# value of arry=486111775 -363927902 969567355 438002276 1427924159 -123183224 60836745 -1786752076
+# value of arry=887777149 -1419926836 863287449 329917510 763092985 889200050 82807777 1251271002 5183825
+# value of arry=705554671 -839954744 429842505 977803350 1455722771 1114404000 1805276861 1865306412 2064194015
+# value of arry=189645107 966348202 1011710831 759678060 1360148717 205323640
+# value of arry=1519659355 1980525064 1056440965 792962366 1648485045 2115950416 58034899 793553076
+# value of arry=1605786041 149420358 295636843 549627276 2013471141 1037218518 1377483037 -1090868114
+# value of arry=862015959 -1354642060 659325309 -1419238110 1786702235 -574630894 881900671
+# value of arry=499043477 -1148779332 263946701 1529451588 1209245549 -1144328330 1860395725 -931699972 397167365
+# value of arry=1759141159 1941245152 1916181023 -564294592 609641555 -726054064 2133384053
+# value of arry=1522594377 -220317850 577959289 375528120 1456139599 194746212
+# value of arry=1858785883 1655339678 1151032969 -987991112 1159476855 463915458
+# value of arry=44315173 1364779062 1040935591 -1173682320 661974931 512019320 691565985 -2042919014 1890040713 160261178
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 14:02:07 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
-# -- Compiling module tb
-# ** Warning: dist_con.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 14:02:07 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 14:02:08 on Jan 30,2026, Elapsed time: 3:13:04
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 14:02:08 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: dist_con.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=0
-# data=1
-# data=1
-# data=0
-# data=0
-# data=0
-# data=0
-# data=0
-# data=2
-# data=0
-# data=1
-# data=2
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 14:02:34 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
-# -- Compiling module tb
-# ** Warning: dist_con.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 14:02:34 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 14:02:34 on Jan 30,2026, Elapsed time: 0:00:26
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 14:02:35 on Jan 30,2026
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=0
-# data=1
-# data=1
-# data=0
-# data=0
-# data=0
-# data=0
-# data=0
-# data=2
-# data=0
-# data=1
-# data=2
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:17:12 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# ** Error: (vlog-13069) dist_con.sv(6): near "/": syntax error, unexpected '/', expecting ',' or '}'.
-# End time: 15:17:12 on Jan 30,2026, Elapsed time: 0:00:00
+# Start time: 18:03:55 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# ** Error: (vlog-13069) array.sv(20): near "inside": syntax error, unexpected "SystemVerilog keyword 'inside'".
+# array.sv(20): Verilog Compiler exiting
+# End time: 18:03:55 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # ** Error: C:/questasim64_2024.1/win64/vlog failed.
 # Error in macro ./run.do line 1
 # C:/questasim64_2024.1/win64/vlog failed.
 #     while executing
-# "vlog dist_con.sv +acc"
+# "vlog array.sv +acc"
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:17:33 on Jan 30,2026
-# vlog -reportprogress 300 dist_con.sv "+acc" 
-# -- Compiling package dist_con_sv_unit
+# Start time: 18:04:09 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# -- Compiling package array_sv_unit
+# ** Error: array.sv(21): (vlog-2728) Inside operator requires a singular type.
 # -- Compiling module tb
-# ** Warning: dist_con.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 15:17:33 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 15:17:34 on Jan 30,2026, Elapsed time: 1:14:59
-# Errors: 1, Warnings: 0
-# vsim tb 
-# Start time: 15:17:34 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: dist_con.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.dist_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=0
-# data1=3
-# data=1
-# data1=4
-# data=1
-# data1=0
-# data=0
-# data1=0
-# data=0
-# data1=4
-# data=0
-# data1=4
-# data=0
-# data1=4
-# data=0
-# data1=4
-# data=2
-# data1=4
-# data=0
-# data1=3
-# data=1
-# data1=3
-# data=2
-# data1=4
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:08:19 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:08:19 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:08:20 on Jan 30,2026, Elapsed time: 0:50:46
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 16:08:20 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# ** Error (suppressible): (vsim-8323) $display : Argument number 2 is an unpacked type, and may only be printed with the '%p' format.
-#    Time: 0 ns  Iteration: 0  Instance: /tb File: array_con.sv Line: 17
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./run.do PAUSED at line 2
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:08:45 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:08:45 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# vsim tb 
-# Start time: 16:08:20 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=4.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 10 6 1 4
-# data=4 10 8 2 10
-# data=15 13 8 3 6
-# data=7 6 0 14 12
-# data=10 12 7 7 6
-# data=15 15 6 12 13
-# data=8 2 1 4 9
-# data=1 7 10 2 7
-# data=8 15 9 7 15
-# data=4 3 11 5 11
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:11:21 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# ** Error: (vlog-13069) array_con.sv(11): near "[": syntax error, unexpected '['.
-# ** Warning: array_con.sv(11): (vlog-13413) Non-LRM compliant use of constraint_set as a constraint_block_item.
-# array_con.sv(23): Verilog Compiler exiting
-# End time: 16:11:21 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:11:37 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(11): (vlog-2728) Inside operator requires a singular type.
-# -- Compiling module tb
-# ** Error: array_con.sv(17): 'A1' is an unknown type.
+# ** Error: array.sv(34): 'A' is an unknown type.
 # Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(20): 'a1' is not a variable
-# ** Error: array_con.sv(20): Illegal LHS of assignment.
-# ** Error: array_con.sv(20): 'new' must be used to assign to a class or covergroup handle.
-# End time: 16:11:37 on Jan 30,2026, Elapsed time: 0:00:00
+# ** Error: array.sv(37): 'a' is not a variable
+# ** Error: array.sv(37): Illegal LHS of assignment.
+# ** Error: array.sv(37): 'new' must be used to assign to a class or covergroup handle.
+# End time: 18:04:09 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 5, Warnings: 0
 # ** Error: C:/questasim64_2024.1/win64/vlog failed.
 # Error in macro ./run.do line 1
 # C:/questasim64_2024.1/win64/vlog failed.
 #     while executing
-# "vlog array_con.sv +acc"
+# "vlog array.sv +acc"
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:11:55 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(11): (vlog-2728) Inside operator requires a singular type.
+# Start time: 18:04:32 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# -- Compiling package array_sv_unit
+# ** Error: array.sv(20): (vlog-2728) Inside operator requires a singular type.
 # -- Compiling module tb
-# ** Error: array_con.sv(17): 'A1' is an unknown type.
+# ** Error: array.sv(33): 'A' is an unknown type.
 # Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(20): 'a1' is not a variable
-# ** Error: array_con.sv(20): Illegal LHS of assignment.
-# ** Error: array_con.sv(20): 'new' must be used to assign to a class or covergroup handle.
-# End time: 16:11:55 on Jan 30,2026, Elapsed time: 0:00:00
+# ** Error: array.sv(36): 'a' is not a variable
+# ** Error: array.sv(36): Illegal LHS of assignment.
+# ** Error: array.sv(36): 'new' must be used to assign to a class or covergroup handle.
+# End time: 18:04:32 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 5, Warnings: 0
 # ** Error: C:/questasim64_2024.1/win64/vlog failed.
 # Error in macro ./run.do line 1
 # C:/questasim64_2024.1/win64/vlog failed.
 #     while executing
-# "vlog array_con.sv +acc"
+# "vlog array.sv +acc"
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:15:41 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(11): (vlog-2728) Inside operator requires a singular type.
-# -- Compiling module tb
-# ** Error: array_con.sv(17): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(20): 'a1' is not a variable
-# ** Error: array_con.sv(20): Illegal LHS of assignment.
-# ** Error: array_con.sv(20): 'new' must be used to assign to a class or covergroup handle.
-# End time: 16:15:41 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:15:44 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(11): (vlog-2728) Inside operator requires a singular type.
-# -- Compiling module tb
-# ** Error: array_con.sv(17): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(20): 'a1' is not a variable
-# ** Error: array_con.sv(20): Illegal LHS of assignment.
-# ** Error: array_con.sv(20): 'new' must be used to assign to a class or covergroup handle.
-# End time: 16:15:44 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:16:17 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:16:17 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:16:18 on Jan 30,2026, Elapsed time: 0:07:58
-# Errors: 6, Warnings: 4
-# vsim tb 
-# Start time: 16:16:19 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 10 6 1 4
-# data=4 10 8 2 10
-# data=15 13 8 3 6
-# data=7 6 0 14 12
-# data=10 12 7 7 6
-# data=15 15 6 12 13
-# data=8 2 1 4 9
-# data=1 7 10 2 7
-# data=8 15 9 7 15
-# data=4 3 11 5 11
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:17:04 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:17:04 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:17:05 on Jan 30,2026, Elapsed time: 0:00:46
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 16:17:05 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 10 6 1 4 ||  data1=-270365905 781714652 83684093 -138990540
-# data=4 10 8 2 10 ||  data1=-2069424714 -334851619 1434191551
-# data=15 13 8 3 6 ||  data1=1155221281 -177839354 -287548789 -2047290035 -1716728742 814207660
-# data=7 6 0 14 12 ||  data1=2102836858 -367810277 1273754575 669010831 -1275240535 1532356868
-# data=10 12 7 7 6 ||  data1=-358597700 -1883210590 -1062340832
-# data=15 15 6 12 13 ||  data1=-575928136 -1368881664 -2066059430
-# data=8 2 1 4 9 ||  data1=-1165678614 889106122 -1035316163
-# data=1 7 10 2 7 ||  data1=-1793086532 -1313055948 -230225018
-# data=8 15 9 7 15 ||  data1=2034456810 1311555260 959734544 857914716 1851128311 82538464 -67321123
-# data=4 3 11 5 11 ||  data1=-979662106 -2093954780 850403067 -1252185644 1237988488 -1302660939 -46611094
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:17:43 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:17:43 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:17:44 on Jan 30,2026, Elapsed time: 0:00:39
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 16:17:44 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(25): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 10 6 1 4 ||  data1=30 27 28 19
-# data=4 10 8 2 10 ||  data1=21 28 30
-# data=15 13 8 3 6 ||  data1=16 21 26 28 25 27
-# data=7 6 0 14 12 ||  data1=25 26 30 30 24 19
-# data=10 12 7 7 6 ||  data1=27 17 15
-# data=15 15 6 12 13 ||  data1=23 15 25
-# data=8 2 1 4 9 ||  data1=25 25 28
-# data=1 7 10 2 7 ||  data1=27 19 21
-# data=8 15 9 7 15 ||  data1=25 27 15 27 22 15 28
-# data=4 3 11 5 11 ||  data1=21 19 26 19 23 20 25
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:18:09 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:18:10 on Jan 30,2026, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 1
-# End time: 16:18:11 on Jan 30,2026, Elapsed time: 0:00:27
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 16:18:11 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(25): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 5 6 8 2 ||  data1=30 27 28 22
-# data=3 12 0 11 13 ||  data1=19 28 16
-# data=14 11 5 5 10 ||  data1=27 22 20 28 26 27
-# data=1 10 11 14 14 ||  data1=17 19 22 16 21 23
-# data=6 13 2 9 4 ||  data1=26 23 25
-# data=11 1 12 13 5 ||  data1=16 25 29
-# data=4 6 4 10 8 ||  data1=18 20 21
-# data=15 15 13 15 7 ||  data1=24 16 30
-# data=0 7 10 7 15 ||  data1=22 24 15 27 19 15 28
-# data=13 0 7 4 1 ||  data1=20 21 23 20 29 23 27
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:45:18 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# ** Error: array_con.sv(22): Expecting comma separated variables in the loop variables section.
-# ** Error: array_con.sv(23): (vlog-2730) Undefined variable: 'i'.
-# End time: 16:45:18 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:46:09 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# ** Error: array_con.sv(22): Expecting comma separated variables in the loop variables section.
-# ** Error: array_con.sv(23): (vlog-2730) Undefined variable: 'i'.
-# End time: 16:46:09 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:47:17 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# ** Error: array_con.sv(22): Expecting comma separated variables in the loop variables section.
-# ** Error: array_con.sv(23): (vlog-2730) Undefined variable: 'i'.
-# End time: 16:47:17 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:49:43 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:49:43 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:49:44 on Jan 30,2026, Elapsed time: 0:31:33
-# Errors: 3, Warnings: 2
-# vsim tb 
-# Start time: 16:49:44 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:50:38 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:50:38 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:50:39 on Jan 30,2026, Elapsed time: 0:00:55
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 16:50:39 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[3]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[2]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[1]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# ** Warning: (vsim-7308) Multiple 'randc' variables are being solved together. The 'randc' variable 'data[1]'
-# at File: array_con.sv Line: 2 will be assigned with cyclic solutions. But the cyclic behavior
-# of 'randc' variable 'data_2[0]' at File: array_con.sv Line: 17 will be ignored.
-# 
-#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#32 File: array_con.sv Line: 35
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 16:51:07 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 16:51:07 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 16:51:08 on Jan 30,2026, Elapsed time: 0:00:29
-# Errors: 0, Warnings: 42
-# vsim tb 
-# Start time: 16:51:08 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:28:00 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:28:01 on Jan 30,2026, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 1
-# End time: 17:28:02 on Jan 30,2026, Elapsed time: 0:36:54
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 17:28:02 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36 || data_3=984251755 1358327889 103296652 -136459348 -688147020 
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34 || data_3=-168471546 1724808142 1155330277 -445493579 1214090975 
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34 || data_3=-715253218 -1479659595 587900670 1836018911 -1064896459 
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42 || data_3=666766753 -513546463 -1496717428 1114693476 1148412550 
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47 || data_3=-381611159 -1962779582 1275326415 -1863001449 -1785733509 
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32 || data_3=1404187320 -419960457 708185250 1830012901 1063173789 
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36 || data_3=915006235 -1128101360 -1577708049 939939727 1754817374 
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36 || data_3=1027626784 -687300504 1714498347 165843442 -1453492796 
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35 || data_3=-1052072861 -1521193724 -1990627764 1221263064 1670061573 
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42 || data_3=1813255295 1179562871 1940887846 1284547889 199525477 
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:28:59 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(31): (vlog-2728) Inside operator requires a singular type.
-# -- Compiling module tb
-# ** Error: array_con.sv(41): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(44): 'a1' is not a variable
-# ** Error: array_con.sv(44): Illegal LHS of assignment.
-# ** Error: array_con.sv(44): 'new' must be used to assign to a class or covergroup handle.
-# End time: 17:28:59 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:29:35 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# ** Error: array_con.sv(33): (vlog-2728) Inside operator requires a singular type.
-# -- Compiling module tb
-# ** Error: array_con.sv(41): 'A1' is an unknown type.
-# Or did you omit the '()' for an instantiation?
-# ** Error: array_con.sv(44): 'a1' is not a variable
-# ** Error: array_con.sv(44): Illegal LHS of assignment.
-# ** Error: array_con.sv(44): 'new' must be used to assign to a class or covergroup handle.
-# End time: 17:29:35 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog array_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:29:54 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(46): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:29:54 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 17:29:54 on Jan 30,2026, Elapsed time: 0:01:52
-# Errors: 2, Warnings: 2
-# vsim tb 
-# Start time: 17:29:54 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(46): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36 || data_3=43 35 3 1 35 
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34 || data_3=6 0 18 15 46 
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34 || data_3=30 14 32 16 40 
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42 || data_3=33 1 49 17 33 
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47 || data_3=41 18 41 17 50 
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32 || data_3=7 38 41 21 20 
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36 || data_3=27 0 29 12 16 
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36 || data_3=32 2 8 36 39 
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35 || data_3=35 30 29 5 44 
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42 || data_3=31 13 48 1 39 
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:30:49 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(46): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:30:49 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 17:30:50 on Jan 30,2026, Elapsed time: 0:00:56
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 17:30:50 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: array_con.sv(46): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36 || data_3=23 31 34 41 49 
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34 || data_3=17 20 45 45 45 
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34 || data_3=10 13 17 19 19 
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42 || data_3=13 13 13 13 13 
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47 || data_3=14 26 41 44 50 
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32 || data_3=3 7 9 13 50 
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36 || data_3=0 0 0 16 36 
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36 || data_3=0 14 15 26 47 
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35 || data_3=8 26 27 42 47 
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42 || data_3=3 6 23 32 35 
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:33:07 on Jan 30,2026
-# vlog -reportprogress 300 array_con.sv "+acc" 
-# -- Compiling package array_con_sv_unit
-# -- Compiling module tb
-# ** Warning: array_con.sv(46): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:33:08 on Jan 30,2026, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 1
-# End time: 17:33:08 on Jan 30,2026, Elapsed time: 0:02:18
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 17:33:08 on Jan 30,2026
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading sv_std.std
-# Loading work.array_con_sv_unit(fast)
-# Loading work.tb(fast)
-# data=9 3 6 8 2 ||  data1=30 27 28 22   || data_2=39 45 33 36 || data_3=23 31 34 41 49 
-# data=3 7 0 11 13 ||  data1=19 28 16   || data_2=35 47 32 34 || data_3=17 20 45 45 45 
-# data=14 13 5 5 10 ||  data1=27 22 20 28 26 27   || data_2=44 44 46 34 || data_3=10 13 17 19 19 
-# data=1 4 11 14 14 ||  data1=17 19 22 16 21 23   || data_2=38 39 42 42 || data_3=13 13 13 13 13 
-# data=6 6 2 9 4 ||  data1=26 23 25   || data_2=44 35 38 47 || data_3=14 26 41 44 50 
-# data=11 5 12 13 5 ||  data1=16 25 29   || data_2=38 34 42 32 || data_3=3 7 9 13 50 
-# data=4 2 4 10 8 ||  data1=18 20 21   || data_2=39 46 46 36 || data_3=0 0 0 16 36 
-# data=15 14 13 15 7 ||  data1=24 16 30   || data_2=38 37 38 36 || data_3=0 14 15 26 47 
-# data=0 8 10 7 15 ||  data1=22 24 15 27 19 15 28   || data_2=32 45 43 35 || data_3=8 26 27 42 47 
-# data=13 15 7 4 1 ||  data1=20 21 23 20 29 23 27   || data_2=33 38 33 42 || data_3=3 6 23 32 35 
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:45:13 on Jan 30,2026
-# vlog -reportprogress 300 conditional_cons.sv "+acc" 
-# ** Error: (vlog-7) Failed to open design unit file "conditional_cons.sv" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 17:45:13 on Jan 30,2026, Elapsed time: 0:00:00
+# Start time: 18:05:31 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# ** Error: (vlog-13069) array.sv(20): near "inside": syntax error, unexpected "SystemVerilog keyword 'inside'".
+# array.sv(20): Verilog Compiler exiting
+# End time: 18:05:31 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # ** Error: C:/questasim64_2024.1/win64/vlog failed.
 # Error in macro ./run.do line 1
 # C:/questasim64_2024.1/win64/vlog failed.
 #     while executing
-# "vlog conditional_cons.sv +acc"
+# "vlog array.sv +acc"
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:45:51 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# ** Error: conditional_con.sv(8): (vlog-2730) Undefined variable: 'addr'.
-# End time: 17:45:51 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog conditional_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:46:09 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# -- Compiling package conditional_con_sv_unit
+# Start time: 18:07:25 on Feb 03,2026
+# vlog -reportprogress 300 array.sv "+acc" 
+# -- Compiling package array_sv_unit
 # -- Compiling module tb
-# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: array.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # 
 # Top level modules:
 # 	tb
-# End time: 17:46:09 on Jan 30,2026, Elapsed time: 0:00:00
+# End time: 18:07:25 on Feb 03,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# End time: 17:46:10 on Jan 30,2026, Elapsed time: 0:13:02
-# Errors: 2, Warnings: 0
+# End time: 18:07:26 on Feb 03,2026, Elapsed time: 0:05:00
+# Errors: 4, Warnings: 2
 # vsim tb 
-# Start time: 17:46:10 on Jan 30,2026
+# Start time: 18:07:26 on Feb 03,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: array.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading sv_std.std
-# Loading work.conditional_con_sv_unit(fast)
+# Loading work.array_sv_unit(fast)
 # Loading work.tb(fast)
-# opcode=1,addr=202
-# opcode=2,addr=223
-# opcode=3,addr=86
-# opcode=2,addr=199
-# opcode=3,addr=160
-# opcode=1,addr=24
-# opcode=2,addr=177
-# opcode=2,addr=252
-# opcode=1,addr=8
-# opcode=1,addr=77
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:48:12 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# ** Error: (vlog-13069) conditional_con.sv(21): near "c1": syntax error, unexpected IDENTIFIER, expecting '{'.
-# End time: 17:48:12 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog conditional_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:48:54 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# ** Error: (vlog-13069) conditional_con.sv(21): near "c1": syntax error, unexpected IDENTIFIER, expecting '{'.
-# End time: 17:48:54 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_2024.1/win64/vlog failed.
-# Error in macro ./run.do line 1
-# C:/questasim64_2024.1/win64/vlog failed.
-#     while executing
-# "vlog conditional_con.sv +acc"
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:50:30 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# -- Compiling package conditional_con_sv_unit
-# -- Compiling module tb
-# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:50:30 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 17:50:31 on Jan 30,2026, Elapsed time: 0:04:21
-# Errors: 2, Warnings: 2
-# vsim tb 
-# Start time: 17:50:31 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.conditional_con_sv_unit(fast)
-# Loading work.tb(fast)
-# opcode=1,addr=202
-# opcode=1,addr=223
-# opcode=1,addr=86
-# opcode=1,addr=199
-# opcode=1,addr=160
-# opcode=1,addr=24
-# opcode=0,addr=17
-# opcode=1,addr=252
-# opcode=1,addr=8
-# opcode=1,addr=77
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:51:02 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# -- Compiling package conditional_con_sv_unit
-# -- Compiling module tb
-# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:51:02 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 17:51:03 on Jan 30,2026, Elapsed time: 0:00:32
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 17:51:03 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.conditional_con_sv_unit(fast)
-# Loading work.tb(fast)
-# opcode=1,addr=3
-# opcode=0,addr=9
-# opcode=1,addr=f
-# opcode=0,addr=14
-# opcode=0,addr=2
-# opcode=1,addr=f
-# opcode=0,addr=11
-# opcode=0,addr=13
-# opcode=1,addr=4
-# opcode=0,addr=19
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 17:51:49 on Jan 30,2026
-# vlog -reportprogress 300 conditional_con.sv "+acc" 
-# -- Compiling package conditional_con_sv_unit
-# -- Compiling module tb
-# ** Warning: conditional_con.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# 
-# Top level modules:
-# 	tb
-# End time: 17:51:49 on Jan 30,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 17:51:50 on Jan 30,2026, Elapsed time: 0:00:47
-# Errors: 0, Warnings: 2
-# vsim tb 
-# Start time: 17:51:50 on Jan 30,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Warning: conditional_con.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading sv_std.std
-# Loading work.conditional_con_sv_unit(fast)
-# Loading work.tb(fast)
-# opcode=1,addr=3
-# opcode=1,addr=9
-# opcode=1,addr=f
-# opcode=0,addr=14
-# opcode=1,addr=2
-# opcode=1,addr=f
-# opcode=0,addr=11
-# opcode=0,addr=13
-# opcode=1,addr=4
-# opcode=0,addr=19
+# value of arry=11 8 19 30 13 30 23 28
+# value of arry=17 4 11 6 17 12 15 16 9
+# value of arry=15 0 17 18 17 26 17 14 29
+# value of arry=5 24 23 8 15 30
+# value of arry=23 10 13 10 25 6 1 14
+# value of arry=7 26 15 24 17 20 29 30
+# value of arry=11 10 9 18 29 20 9
+# value of arry=27 26 25 2 19 22 7 18 29
+# value of arry=5 8 29 14 17 0 1
+# value of arry=27 6 25 6 29 4
+# value of arry=9 6 5 18 3 14
+# value of arry=17 28 7 6 1 28 29 2 7 6
